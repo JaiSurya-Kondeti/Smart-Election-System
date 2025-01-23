@@ -13,7 +13,7 @@ face_det = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalfac
 faces_data = []
 
 # Input Aadhar number
-name = input("Enter Your Aadhar Number:")
+name = input("Enter Your Aadhar Number(Unique):")
 
 # Settings for frame capture
 framesTotal = 51
